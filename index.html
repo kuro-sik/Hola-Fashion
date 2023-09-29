@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Hola Fashion</title>
+</head>
+
+<!-- https://www.figma.com/proto/MmGM4mxXY4j0UVo30QY3Rd/HolaFashion-(Copy)?type=design&node-id=10791-411&t=f7crgf5JJZplEbOJ-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=10791%3A328 -->
+
+<body link="#4f6340">
+    <nav>
+        <ul>
+            <br>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <br>
+    </nav>
+
+    <section id="home" class="section">
+        <div class="left">
+            
+        </div>
+        <div class="right">
+            <h1>Hola Fashion</h1>
+            <input type="text" placeholder="Enter email">
+            <button>Shop now</button>
+            <!-- <img src="styles/images/1.jpg" alt="Fashion Image"> -->
+        </div>
+    </section>
+
+    <section id="product" class="section">
+        <div class="slider-container">
+            <h1>Product</h1>
+            <div class="slider">
+                <div class="slide"><img src="styles/images/2.jpg" alt="Image 1"></div>
+                <div class="slide"><img src="styles/images/4.jpg" alt="Image 2"></div>
+                <div class="slide"><img src="styles/images/5.jpg" alt="Image 3"></div>
+            </div>
+            <button id="prevBtn" class="control-btn">Назад</button>
+            <button id="nextBtn" class="control-btn">Вперед</button>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="services" class="section">
+        <h1>Services</h1>
+        <div class="service">
+            <div class="service-item" style="background-color: olive;">
+                <img src="styles/images/5.jpg" alt="Service 1">
+                <p>Shop for the best and<br>
+                latest in clothing</p>
+            </div>
+            <div class="service-item" style="background-color: #ffbdbd;">
+                <img src="styles/images/6.jpg" alt="Service 2">
+                <p>Proving clothes for<br>
+                both men and women</p>
+            </div>
+            <div class="service-item" style="background-color: olive;">
+                <img src="styles/images/7.jpg" alt="Service 3">
+                <p>Shop for the latest and<br>
+                most popular fashion</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="section">
+        <h1>Blog</h1>
+        <div class="blog">
+            <div class="blog-item">
+                <img src="styles/images/8.jpg" alt="Blog 1">
+                <p>This Shirt Will Save<br>
+                You $40 On Your<br>
+                Next Online Purchase</p>
+            </div>
+            <div class="blog-item">
+                <img src="styles/images/9.jpg" alt="Blog 2">
+                <p>The Story Behind<br>
+                Hola Fashion: The<br>
+                Cotton Movement</p>
+            </div>
+            <div class="blog-item">
+                <img src="styles/images/10.jpg" alt="Blog 3">
+                <p>Want to Wear in<br>
+                Madrid: 8 Outfits To<br>
+                Make You Look Local</p>
+            </div>
+            <div class="blog-item">
+                <img src="styles/images/11.jpg" alt="Blog 4">
+                <p>Guide to Buying a<br>
+                Suit: What You<br>
+                Need To Know</p>
+            </div>
+            <div class="blog-item">
+                <img src="styles/images/12.jpg" alt="Blog 5">
+                <p>Making A Social<br>
+                Imoact Through<br>
+                Your Business</p>
+            </div>
+            <div class="blog-item">
+                <img src="styles/images/13.jpg" alt="Blog 6">
+                <p>The World's<br>
+                Most Famous Street<br>
+                Style Bloggers</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h1>Contact Us</h1>
+        <div class="contact-form">
+            <img src="styles/images/14.jpg" alt="Contact Image">
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <br> 
+            </form>
+            <br>
+            <br>
+            <button id="openPopup">Send Message</button>
+        </div>
+        
+    </section>
+    
+    
+
+    <div id="messagePopup" class="popup">
+        <div class="popup-content">
+            <span id="closePopup" class="close">&times;</span>
+            <p>Message sent!</p>
+        </div>
+    </div>
+
+    <script src="styles\script.js"></script>
+</body>
+</html>
